@@ -1,0 +1,29 @@
+document.addEventListener('DOMContentLoaded', () => {
+const questionDiv = document.getElementById('question');
+const answerDiv = document.getElementById('answer');
+const answerText = document.getElementById('answerText');
+const meButton = document.getElementById('meButton');
+const idkButton = document.getElementById('idkButton');
+
+meButton.addEventListener('click', () => {
+answerText.innerHTML = '❤️ Of course mi amor, te amo mucho mi patuti ❤️';
+questionDiv.classList.add('hidden');
+answerDiv.classList.remove('hidden');
+});
+
+idkButton.addEventListener('click', () => {
+answerText.innerHTML = '<button id="sureButton">YOU SURE?</button>';
+questionDiv.classList.add('hidden');
+answerDiv.classList.remove('hidden');
+
+document.getElementById('sureButton').addEventListener('click', () => {
+answerText.innerHTML = `
+<h1>Who's my patuti?</h1>
+<button id="meButton">MEEE</button>
+<button id="idkButton">IDK</button>
+`;
+answerDiv.classList.add('hidden');
+questionDiv.classList.remove('hidden');
+});
+});
+});

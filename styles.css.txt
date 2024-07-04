@@ -1,0 +1,42 @@
+body {
+font-family: 'Arial', sans-serif;
+background-color: #f3e5f5;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+#question, #answer {
+text-align: center;
+}
+
+button {
+background-color: #b39ddb;
+border: none;
+padding: 15px 25px;
+margin: 10px;
+font-size: 16px;
+cursor: pointer;
+color: white;
+border-radius: 5px;
+}
+
+button:hover {
+background-color: #9575cd;
+}
+
+.hidden {
+display: none;
+}
+
+#answerText {
+font-size: 24px;
+color: #d81b60;
+}
+
+#heart {
+font-size: 100px;
+color: #f48fb1;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Who's My Patuti?</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="question">
+<h1>Who's my patuti?</h1>
+<button id="meButton">MEEE</button>
+<button id="idkButton">IDK</button>
+</div>
+<div id="answer" class="hidden">
+<h1 id="answerText"></h1>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
